@@ -5,3 +5,55 @@
 	font-size:					10px;
 }
 
+
+#wrapper
+{
+	display:					flex;
+	flex-direction:				column;
+	
+}
+
+#SEC01
+{
+	height:						45vh;
+	
+	background-color:			darkslategray;
+}
+
+#SEC02
+{
+	
+	height:						55vh;
+	
+	background-color:			black;
+}
+
+.LOCT01
+{
+	height:						100%;
+	width:						70vw;
+	
+	background-color:			blue;
+}
+
+
+
+
+#TFT01
+{
+	display: 					flex;
+	justify-content: 			center;
+	align-items: 				center;
+	text-align: 				center;
+	
+	height:						25vh;
+	width:						50vw;
+	
+	background-color:			black;
+	
+	font-size: 					15rem;
+	font-weight: 				900;
+	font-family: 				'Pragati Narrow', sans-serif;
+	text-transform: 			uppercase;
+	color:						yellow;
+}
