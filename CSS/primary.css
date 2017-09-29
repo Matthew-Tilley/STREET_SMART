@@ -37,7 +37,12 @@
 }
 
 
-
+#keyboard
+{
+	height:		25vh;
+	width: 		50vw;
+	font-size:	8rem;
+}
 
 #TFT01
 {
