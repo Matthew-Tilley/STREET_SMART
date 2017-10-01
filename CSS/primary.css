@@ -28,6 +28,67 @@
 	background-color:			black;
 }
 
+
+#SEC03
+{
+	display:						flex;
+	align-items: 					center;
+	justify-content: 				space-around;
+	
+	height: 						55vh;
+	padding-bottom:					4rem;
+	
+	background-color:				black;
+	
+}
+
+
+#LOC01
+{
+	display:						flex;
+	flex-direction: 				column;
+	justify-content: 				center;
+	align-items: 					center;
+}
+
+.LOT01
+{
+	display:						flex;
+	align-items: 					center;
+	
+	margin-bottom:					.5rem;
+	
+}
+
+#LOC03
+{
+	display:						flex;
+	align-items: 					center;
+	justify-content: 				space-between;
+	
+	width: 							100%;
+	
+	margin-bottom:					2rem;
+}
+
+
+
+
+
+#LOC02
+{
+	display:						grid;
+	grid-gap:						1.5rem;
+	grid-template-areas: 			"BU7 BU8 BU9"
+									"BU4 BU5 BU6"
+									"BU1 BU2 BU3"
+									"... BU0 ...";
+	
+	width:							20vw;
+	
+}
+
+
 .LOCT01
 {
 	height:						100%;
@@ -37,12 +98,6 @@
 }
 
 
-#keyboard
-{
-	height:		25vh;
-	width: 		50vw;
-	font-size:	8rem;
-}
 
 #TFT01
 {
@@ -61,4 +116,288 @@
 	font-family: 				'Pragati Narrow', sans-serif;
 	text-transform: 			uppercase;
 	color:						yellow;
+}
+
+.BUT01
+{
+	display:							flex;
+	justify-content: 					center;
+	align-items: 						center;
+	
+	height:								80px;
+	width:								80px;
+	
+	margin:								1rem;
+	border: 							none;
+	
+	text-shadow: 						2px 2px black;
+	font-size:							5rem;
+	font-family: 						arial;
+	font-weight: 						900;
+	color:								lightslategray;
+	
+	background-image:					url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BCK_BUT01_100_100_b.png");
+	background-repeat: 					no-repeat;
+	background-size: 					contain;
+	background-color:					transparent;
+	
+
+}
+
+.BUT02
+{
+
+	width:								80px;
+	height: 							80px;
+	border:								none;
+	
+	background-image:					url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BCK_BUT01_100_100_c.png");
+	background-repeat: 					no-repeat;
+	background-size: 					contain;
+	background-color:					transparent;
+	
+	font-family: 						arial;
+	font-weight: 						900;
+	text-shadow: 						2px 2px black;
+	font-size:				5rem;
+	color:					lightslategray;
+	
+}
+
+#BUT03
+{
+	height:							80px;
+	width:							220px;
+	
+	border:							none;
+	
+	background-image:				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BCK_BUT01_100_100_d.png");
+	background-repeat: 				no-repeat;
+	background-size: 				cover;
+	background-color:				transparent;
+}
+
+#BUT04
+{
+	height:							80px;
+	width:							220px;
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BCK_BUT01_100_100_e.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+
+#BUT05
+{
+	height:							80px;
+	width:							220px;
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BCK_BUT01_100_100_f.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+#BUT06
+{
+	height:							80px;
+	width:							220px;
+	
+	
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BCK_BUT01_100_100_g.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+
+
+#BU0
+{
+	grid-area: 				BU0;
+}
+
+#BU1
+{
+	grid-area:				BU1;
+}
+
+#BU2
+{
+	grid-area:				BU2;
+}
+
+#BU3
+{
+	grid-area:				BU3;
+}
+
+#BU4
+{
+	grid-area: 				BU4;
+}
+
+#BU5
+{
+	grid-area: 				BU5;
+}
+
+#BU6
+{
+	grid-area: 				BU6;
+}
+
+#BU7
+{
+	grid-area: 				BU7;
+}
+
+#BU8
+{
+	grid-area: 				BU8;
+}
+
+#BU9
+{
+	grid-area: 				BU9;
+}
+
+
+#BUA
+{
+	grid-area:				BUA;
+}
+
+#BUB
+{
+	grid-area:				BUB;
+}
+
+#BUC
+{
+	grid-area:				BUC;
+}
+
+#BUD
+{
+	grid-area: 				BUD;
+}
+
+#BUE
+{
+	grid-area:				BUE;
+}
+
+#BUF
+{
+	grid-area: 				BUF;
+}
+
+#BUG
+{
+	grid-area:				BUG;
+}
+
+#BUH
+{
+	grid-area:				BUH;
+}
+
+#BUI
+{
+	grid-area:				BUI;
+}
+
+#BUJ
+{
+	grid-area: 				BUJ;
+}
+
+#BUK
+{
+	grid-area: 				BUK;
+}
+
+#BUL
+{
+	grid-area:				BUL;
+}
+
+#BUM
+{
+	grid-area: 				BUM;
+}
+
+#BUN
+{
+	grid-area:				BUN;
+}
+
+#BUO
+{
+	grid-area:				BUO;
+}
+
+#BUP
+{
+	grid-area: 				BUP;
+}
+
+#BUQ
+{
+	grid-area: 				BUQ;
+}
+
+#BUR
+{
+	grid-area: 				BUR;
+}
+
+#BUS
+{
+	grid-area: 				BUS;
+}
+
+#BUT
+{
+	grid-area: 				BUT;
+}
+
+#BUU
+{
+	grid-area: 				BUU;
+}
+
+#BUV
+{
+	grid-area: 				BUV;
+}
+
+#BUW
+{
+	grid-area:				BUW;
+}
+
+#BUX
+{
+	grid-area: 				BUX;
+}
+
+#BUY
+{
+	grid-area:				BUY;
+}
+
+#BUZ
+{
+	grid-area: 				BUZ;
 }
