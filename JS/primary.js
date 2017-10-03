@@ -23,6 +23,10 @@ $(document).ready(function()
 		console.log($(this).val());
 	});
 	
+	$(".BUT02").on("click", function()
+	{
+		console.log($(this).val());
+	});
 	
 });
 
