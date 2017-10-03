@@ -22,7 +22,9 @@ $(document).ready(function()
 	
 	$(".BUT01").on("click", function()
 	{
-		plate_assembler();
+		var letter = $(this).val();
+		plate_assembler(letter);
+		
 		
 	});
 	
@@ -31,12 +33,17 @@ $(document).ready(function()
 		console.log($(this).val());
 	});
 	
-	function plate_assembler()
+	function plate_assembler(letter)
 	{
-		console.log("IT WORKS");
+		var field = "";
+		
 	}
 	
+	
+	
 });
+
+
 
 
 
