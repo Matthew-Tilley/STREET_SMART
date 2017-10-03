@@ -20,7 +20,8 @@ $(document).ready(function()
 	
 	$(".BUT01").on("click", function()
 	{
-		console.log($(this).val());
+		var letter = $(this).val();
+		console.log(letter + "LKASJLKASJD");
 	});
 	
 	$(".BUT02").on("click", function()
