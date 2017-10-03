@@ -18,10 +18,12 @@ $(document).ready(function()
 	});
 	
 	
+	
+	
 	$(".BUT01").on("click", function()
 	{
-		var letter = $(this).val();
-		console.log(letter + "LKASJLKASJD");
+		plate_assembler();
+		
 	});
 	
 	$(".BUT02").on("click", function()
@@ -29,7 +31,14 @@ $(document).ready(function()
 		console.log($(this).val());
 	});
 	
+	function plate_assembler()
+	{
+		console.log("IT WORKS");
+	}
+	
 });
+
+
 
 
 
