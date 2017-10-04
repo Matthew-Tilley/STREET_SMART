@@ -15,6 +15,9 @@
 
 #SEC01
 {
+	display:					flex;
+	justify-content: 			space-around;
+	align-items: 				center;
 	height:						30vh;
 	
 	background-color:			darkslategray;
@@ -22,7 +25,8 @@
 
 #SEC02
 {
-	
+	display:					flex;
+	justify-content: 			space-around;
 	height:						70vh;
 	
 	background-color:			black;
@@ -72,6 +76,42 @@
 	margin-bottom:					2rem;
 }
 
+#LOC04
+{
+	display:					flex;
+}
+
+#LOC05
+{
+	
+	width:						70vw;
+}
+
+#LOC06
+{
+	display:					flex;
+	justify-content: 			space-between;
+	align-items: 				center;
+	
+	margin:						4rem;
+	
+	
+}
+
+
+#LOC07
+{
+	display:					flex;
+	flex-direction: 			column;
+	justify-content: 			space-around;
+	align-items: 				center;
+	
+	width:						30vw;
+	
+}
+
+
+
 
 
 
@@ -119,6 +159,56 @@
 	text-transform: 			uppercase;
 	color:						red;
 }
+
+
+.DDT01
+{
+	display:					flex;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	height:						25vh;
+	width:						22vw;
+	padding-left: 				4rem;
+	border:						none;
+	
+	
+	font-size:					9.5rem;
+	font-weight: 				900;
+	font-family: 				'Pragati Narrow', sans-serif;
+	color:						gray;
+	
+	background-color:			black;
+}
+
+
+.DDT02
+{
+	display:					flex;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	height:						25vh;
+	width:						67vw;
+	padding-left: 				4rem;
+	border:						none;
+	
+	
+	font-size:					9.5rem;
+	font-weight: 				900;
+	font-family: 				'Pragati Narrow', sans-serif;
+	color:						gray;
+	
+	background-color:			black;
+}
+
+
+#DDB02
+{
+	width:						22vw;
+}
+
+
 
 .BUT01
 {
@@ -221,6 +311,82 @@
 	
 }
 
+
+#BUT07
+{
+	height:							160px;
+	width:							220px;
+	
+	
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BUT07_160_220_a.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+#BUT08
+{
+	height:							160px;
+	width:							220px;
+	
+	
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BUT07_160_220_b.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+#BUT09
+{
+	height:							160px;
+	width:							220px;
+	
+	
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BUT07_160_220_c.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+#BUT10
+{
+	height:							220px;
+	width:							220px;
+	
+	
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BUT10_220_220_a.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
+
+
+#BUT11
+{
+	height:							220px;
+	width:							220px;
+	
+	
+	
+	border:							none;
+	background-image: 				url("../ASSETS/IMAGES/BACKGROUNDS/BUTTONS/BUT11_220_220_a.png");
+	background-repeat:				no-repeat;
+	background-size:				cover;
+	background-color:				transparent;
+	
+}
 
 
 #BU0
