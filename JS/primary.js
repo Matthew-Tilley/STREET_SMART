@@ -22,23 +22,13 @@ $(document).ready(function()
 	
 	$(".BUT01").on("click", function()
 	{
-		var letter = $(this).val();
-		plate_assembler(letter);
-		
-		
+		console.log($(this).val());
 	});
 	
 	$(".BUT02").on("click", function()
 	{
 		console.log($(this).val());
 	});
-	
-	function plate_assembler(letter)
-	{
-		var field = "";
-		
-	}
-	
 	
 	
 });
